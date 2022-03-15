@@ -272,7 +272,7 @@ a:hover{
 }
 
 .img3{
-    background-image: url('../img/3.jpg');
+    background-image: url('../img/2.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -452,7 +452,7 @@ button:hover{
     text-align: center;
     border-radius: 5px;
     box-shadow: 0px 0px 10px rgb(116, 127, 192);
-    position: fixed;
+    position: absolute;
     background-color: #fff;
     opacity: 0;
 }
