@@ -252,6 +252,10 @@ a:hover{
     flex-basis: calc(55% - 1rem);
     margin: 4rem;
 }
+.image-container{
+    flex-basis: calc(50% - 1rem);
+    /* margin: 4rem; */
+}
 
 .img1{
     background-image: url('../img/1.jpg');
@@ -263,21 +267,27 @@ a:hover{
 }
 
 .img2{
-    background-image: url('../img/2.jpg');
+    background-image: url('../img/2.png');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    width: 50%;
+    height: auto;
+    max-height: 80%;
+}
+
+.img3{
+    background-image: url('../img/3.png');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* max-width: 100%; */
     width: 50%;
     height: auto;
 }
 
-.img3{
-    background-image: url('../img/2.jpg');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 50%;
-    height: auto;
+.container-img3{
+    height: 100%;
 }
 
 .icon{
